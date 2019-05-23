@@ -1,8 +1,8 @@
 import alpaca_trade_api as tradeapi
-
+# Replace with your keys below
 APCA_API_BASE_URL = 'https://paper-api.alpaca.markets'
-APCA_API_KEY_ID = 'PKP9WFN2NAA58WW9RIYJ'
-APCA_API_SECRET_KEY = 'mi5ivAnq8DwD5GQp37jGxvKEO6ncHjCzgH7yzgHB'
+APCA_API_KEY_ID = ''
+APCA_API_SECRET_KEY = ''
 
 api = tradeapi.REST(
     base_url=APCA_API_BASE_URL,

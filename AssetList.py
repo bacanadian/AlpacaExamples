@@ -1,9 +1,9 @@
 import alpaca_trade_api as tradeapi
 
 api = tradeapi.REST(
-    key_id='PKKIL5SU92G0EPHC3XM4',
-    secret_key='bKo7pQBjCFgGcn/0gOv7yLV0O2gGyR4eFVgWVsNj',
-    base_url='https://paper-api.alpaca.markets'
+    key_id='',
+    secret_key='',
+    base_url=''
 )
 
 # Get a list of all active assets.
